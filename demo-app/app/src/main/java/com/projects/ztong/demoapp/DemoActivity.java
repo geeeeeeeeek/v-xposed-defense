@@ -17,12 +17,12 @@ public class DemoActivity extends Activity {
         demoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onDemoButtonClick(v);
+                onDemoButtonClick();
             }
         });
     }
 
-    private void onDemoButtonClick(View view) {
+    private void onDemoButtonClick() {
         Toast.makeText(this, "App is not hooked.", Toast.LENGTH_LONG).show();
     }
 }
